@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="gradebox">
+        <p>
+          <b> Current Grade: </b>
+        </p>
+        <p id="grade">
+          
+        </p>
+      </div>
+      <div class="gpabox">
+        <p>
+          <b> Current GPA:</b>
+        </p>
+        <p id="gpa" >
+        </p>
+        <p >
+          /
+        </p>
+        <select class="gpaSelect" name="gpa" id="gpaSelect">
+          <option value="4.3">4.3</option>
+          <option value="4.0">4.0</option>
+        </select>
+      </div>
+      <div id="final">
+
+        <form id="goal-mark">
+
+          <label>What mark do you want in the course?</label>
+          <input type="number" id="final-mark" />
+          <br>
+          <label>How much is the final worth?</label>
+          <input type="number" id="final-worth" />
+        </form>
+        <div id="currentMark">
+          <p>What mark you need on your final: </p>
+          <p id="final-current-mark"></p>
+          
+        </div>
+      </div>
+      <div class="gridTableBox">
+        
+        <table class="gradTable" id="gradeTable" >
+
+  
+        </table>  
+
+      </div>
+      <div class="buttonbox">
+        <button class="scanbutton" id="ScanPage">Scan Page</button>
+      </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+  </body>
+</html>
